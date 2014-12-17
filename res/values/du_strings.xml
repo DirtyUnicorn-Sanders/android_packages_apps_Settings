@@ -153,4 +153,6 @@
 
     <string name="custom_ambient_display_summary">Configure advanced Ambient Display</string>
 
+    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+
 </resources>
