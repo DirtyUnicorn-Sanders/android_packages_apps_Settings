@@ -144,4 +144,7 @@
 	<!-- Connected AP Signal Preference -->
     <string name="connected_signal_pref_title">Signal strength: %1$s</string>
     <string name="connected_signal_pref_summary">Tap for more info</string>
+
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+
 </resources>
