@@ -147,4 +147,7 @@
 
     <string name="link_volume_option_title">Link ring and notification volume</string>
 
+    <!-- About phone screen, device maintainer name -->
+    <string name="device_maintainer">Who made this bitch even more dirtier</string>
+
 </resources>

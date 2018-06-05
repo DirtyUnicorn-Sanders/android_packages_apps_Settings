@@ -34,6 +34,7 @@ import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 //import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.KernelVersionPreferenceController;
+import com.android.settings.deviceinfo.DeviceMaintainerPreference;
 import com.android.settings.deviceinfo.ManualPreferenceController;
 //import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
 import com.android.settings.deviceinfo.ROMVersionPreferenceController;
@@ -130,6 +131,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new ChangelogPreferenceController(context));
         controllers.add(new FirmwareVersionPreferenceController(context, lifecycle));
         //controllers.add(new RegulatoryInfoPreferenceController(context));
+        controllers.add(new DeviceMaintainerPreference(context));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new SecurityDialogPreferenceController(context, fragment));
         controllers.add(new SecurityPatchPreferenceController(context));

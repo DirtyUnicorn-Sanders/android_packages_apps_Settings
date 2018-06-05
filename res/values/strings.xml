@@ -7638,6 +7638,8 @@
     <!-- Title for screen showing recent memory usage of specific app [CHAR LIMIT=30]-->
     <string name="memory_details_title">Memory details</string>
 
+    <string name="device_maintainer">Who made this bitch even more dirtier</string>
+
     <!-- Description of app always running [CHAR LIMIT=45] -->
     <string name="always_running">Always running (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
 
